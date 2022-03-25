@@ -37,7 +37,7 @@ package salonso1602.ut1_pd1_alonso;
     }
 
  */
-public class Multsuma {
+public class EjerMultsuma {
 
     public static void main(String[] args) {
         Multsuma(1.0,2.0,3.0);
