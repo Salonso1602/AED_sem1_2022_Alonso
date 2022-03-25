@@ -1,4 +1,4 @@
-package ut1_alonso.src;
+package ut1_pd1_alonso.src;
 
 /*
  Ejercicio 1:

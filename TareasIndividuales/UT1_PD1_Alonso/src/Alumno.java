@@ -1,4 +1,4 @@
-package ut1_alonso.src;
+package ut1_pd1_alonso.src;
 
 /*
     a) El error al ejecutar el archivo yace en el constructor de instancias de 
