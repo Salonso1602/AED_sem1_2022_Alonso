@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package ut1_equipo6;
+package UT1_equipoTemp6.src;
 
-/**
- *
- * @author gatom
- */
 public class UtilMath {
     
     public static boolean isPrime(long n){
