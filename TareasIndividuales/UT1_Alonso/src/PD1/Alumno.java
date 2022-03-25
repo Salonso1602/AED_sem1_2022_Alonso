@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package salonso1602.ut1_pd1_alonso;
+package ut1_alonso.src;
 
 /*
     a) El error al ejecutar el archivo yace en el constructor de instancias de 
@@ -32,6 +28,15 @@ con metodos propios, a diferencia de los tipos primitivos como int) ya que no
 se puede transformar a string.
  */
 public class Alumno {
+
+    public static void main (String[] args) {
+        Alumno alumno = new Alumno("Messi");
+        System.out.println(alumno.getNombreAdmiracion());
+        System.out.println(recorrer(alumno.getNombreAdmiracion()));
+        System.out.println(getValor());
+        System.out.println(getPrimerCaracter(alumno.getNombreAdmiracion()));
+        System.out.println(paraAString(7));
+    }
     
     private String nombre;
 
@@ -43,15 +48,6 @@ public class Alumno {
 
     public String getNombreAdmiracion() {
         return nombre.concat("!");
-    }
-
-    public static void main (String[] args) {
-        Alumno alumno = new Alumno("Messi");
-        System.out.println(alumno.getNombreAdmiracion());
-        System.out.println(recorrer(alumno.getNombreAdmiracion()));
-        System.out.println(getValor());
-        System.out.println(getPrimerCaracter(alumno.getNombreAdmiracion()));
-        System.out.println(paraAString(7));
     }
 
     public static int recorrer (String cadena) {
